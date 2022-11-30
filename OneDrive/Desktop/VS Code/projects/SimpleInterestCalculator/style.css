@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv{
+    padding: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 500px;
+    background-color: white;
+    color: black;
+}
+.center{
+    width: 400px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+body {
+    background-color: black;
+    font-family:arial;color: white ;
+    
+}
+h1{color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
