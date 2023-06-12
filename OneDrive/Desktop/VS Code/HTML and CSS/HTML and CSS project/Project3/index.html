@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@800&display=swap" rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Web Page</title>
+    <!-- Java Script -->
+    <script>
+        function myfun() {
+            alert("Service temporarily unavailable!");
+        }
+    </script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+       
+        <!-- Navigation menu -->
+        <nav class="menu">
+             <!-- top logo -->
+            <div class="logo"><img src="./assets/white-logo.png" alt="logo"/></div>
+            <ul>
+                <li><a href="index.html">Our Menu</a></li>
+                <li><a href="index.html">Maps</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+            <div>
+                <button class="button" onclick="myfun()">Order</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-top">
+            <h1>A Restaurant That Only Serves Delicious Food</h1>
+        </div>
+        <div class="main-bottom">
+            <button onclick="myfun()">Read Our Menu</button>
+        </div>
+        
+    </main>
+    <footer>
+        <div ><img id="bottom-logo" src="./assets/scrool.png" alt="scrollLogo" /></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+#myForm{
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    display: flex;
+    background-color: aqua;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(105, 10, 195);
+}
+.dishes{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    color: rgb(61, 14, 193);
+}
+
+button{
+    background: rgb(60, 235, 60);
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 20px;
+    border: transparent;
+    padding: 10px 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./billSplitter.css">
+    <title>Bill splitter</title>
+</head>
+<body>
+    <h1>Bill Splitter</h1>
+    <form id="myForm">
+        <fieldset>
+        <div class="dishes">Dishes: 
+            <label for="dish1"> Dish1: &#x20b9;100
+                <input type="checkbox" id="dish1" name="dish" value="100" onchange="calculate()">
+            </label>
+            <label for="dish2"> Dish2: &#x20b9;200
+                <input type="checkbox" id="dish2" name="dish" value="200" onchange="calculate()">
+            </label>
+            <label for="dish3"> Dish3: &#x20b9;300
+                <input type="checkbox" id="dish3" name="dish" value="300" onchange="calculate()">
+            </label>
+            <label for="dish4"> Dish4: &#x20b9;400
+                <input type="checkbox" id="dish4" name="dish" value="400" onchange="calculate()">
+            </label>
+            <label for="dish5"> Dish5: &#x20b9;500
+                <input type="checkbox" id="dish5" name="dish" value="500" onchange="calculate()">
+            </label>
+            <label for="dish6"> Dish6: &#x20b9;600
+                <input type="checkbox" id="dish6" name="dish" value="600" onchange="calculate()">
+            </label>
+        </div>
+        <div class="main">
+            <p id="total">Total Bill: <span></span></p>
+        
+        
+            <label for="persons">Total number of persons</label>
+            <input type="text" id="persons">
+            <br>
+            <button type="submit" value="Submit" onclick="splitBill()">Submit</button>
+            <p id="billSplit"> Bill Split :<span></span></p>
+        </div>
+        </fieldset>
+    </form>
+    <script src="./billSplitter.js"></script>
+</body>
+</html>
